@@ -1,7 +1,7 @@
 function frankenSplice(arr1, arr2, n) {
     let newArray = arr2.slice();
     for (let i = 0; i < arr1.length; i++) {
-      localArray.splice(n, 0, arr1[i]); // (position, do not delete, items to add)
+      newArray.splice(n, 0, arr1[i]); // (position, do not delete, items to add)
       n++;
     }
     return newArray;
