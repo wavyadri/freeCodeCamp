@@ -1,5 +1,5 @@
 function sentensify(str) {
-    // split str into an array
+    // split str into an array (recall \W matches any character)
     // join arr into a str with spaces
     return str.split(/\W/).join(" ");
   }
