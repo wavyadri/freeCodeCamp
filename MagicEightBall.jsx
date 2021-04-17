@@ -1,0 +1,18 @@
+const styles = {
+  color: 'purple',
+  fontSize: 40,
+  border: "2px solid purple",
+};
+
+class Colorful extends React.Component {
+  render() {
+    // change code below this line
+    return (
+      <div style={styles}>Style Me!</div>
+    );
+    // change code above this line
+  }
+};
+
+// practicing using JS with and without {}
+// with: inside return statement
